@@ -8,6 +8,8 @@ private:
     //...
 public:
     //...
+    ConcreteProduct1(){std::cout << "this is concretproduct1!" << std::endl;}
+    ~ConcreteProduct1(){}
 };
 
 #endif

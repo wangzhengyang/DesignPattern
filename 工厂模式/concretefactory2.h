@@ -8,6 +8,8 @@ class ConcreteFactory2 : public Factory{
 private:
     //...
 public:
+    ConcreteFactory2(){std::cout << "this is concretfactory2!" << std::endl;}
+    ~ConcreteFactory2(){}
     virtual Product *CreateProduct(){
         return new ConcreteProduct2();
     }

@@ -7,6 +7,8 @@ class Factory{
 private:
     //...
 public:
+    Factory(){}
+    virtual ~Factory(){}
     virtual Product *CreateProduct() = 0;
 };
 
