@@ -18,3 +18,4 @@
 *.ewt
 *.eww
 *.ewd
+.vscode/settings.json
